@@ -5,11 +5,11 @@ In this public repository you will find a test to join TFG automation team.
 
 ## Requirements:
 
-1. Install and setup Android Studio
+1. Fork this repository to your Github account
 
-2. Install and setup a test automation framework 
+2. Install and setup Android Studio
 
-3. Fork this repository to your Github account
+3. Install and setup a test automation framework 
 
 
 ## Instructions:
@@ -24,4 +24,4 @@ In this public repository you will find a test to join TFG automation team.
 
 5. Commit everything into your repository
 
-6. Send your repository link to qa@topfreegames.com
+6. Send your repository link to recruiting@tfgco.com
