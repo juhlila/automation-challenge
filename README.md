@@ -1,43 +1,89 @@
 # automation-challenge
 
+## Index
+
+[Planning](https://github.com/juhlila/automation-challenge#planning)
+
+[Improvement Suggestions](https://github.com/juhlila/automation-challenge#improvement-suggestions)
+
+[Instructions](https://github.com/juhlila/automation-challenge#instructions)
+
+
 ## Planning:
 ### Features - Written Test Scenarios and Validation
-1. Calculate Tip
-1.1. Insert 100 on EditText field and press "Calculate Tip" (tip percentage default is 15.0%)
+
+**1. Calculate Tip**
+
+**1.1.** Insert 100 on EditText field and press "Calculate Tip" (tip percentage default is 15.0%) 
+
 1.1.1. Validate Total Amount if its correct
+  
 1.1.2. Validate Tip amount if its correct
-1.2. Insert 0.74 on EditText field and press "Calculate Tip"
+
+**1.2.** Insert 0.74 on EditText field and press "Calculate Tip"
+
 1.2.1. Validate Total Amount if its correct
+
 1.2.2. Validate Tip amount if its correct
-1.3. Insert -58 on EditText field and press "Calculate Tip"
+
+**1.3.** Insert -58 on EditText field and press "Calculate Tip"
+
 1.3.1. Validate Total Amount if its correct
+
 1.3.2. Validate Tip amount if its correct
-1.4. Clear EditText field and press "Calculate Tip"
+
+**1.4.** Clear EditText field and press "Calculate Tip"
+
 1.4.1. Validate Total Amount if its still 0
+
 1.4.2. Validate Tip amount if its still 0
 
-2. Settings
-2.1. Clear EditText field and press "Save Settings"
+-
+
+**2. Settings**
+
+**2.1.** Clear EditText field and press "Save Settings"
+
 2.1.1. Validate incorrect number alert
-2.2. Insert "16.7" on field and press "Save Settings"
+
+**2.2.** Insert "16.7" on field and press "Save Settings"
+
 2.2.1. Validate if new Value is shown
-2.3. Insert random valid number and press Calculate Tip
+
+**2.3.** Insert random valid number and press Calculate Tip
+
 2.3.1. Validate Total Amount if its correct
+
 2.3.1. Validate Tip amount if its correct
-2.4. Insert number 2 on field and press "Save Settings"
+
+**2.4.** Insert number 2 on field and press "Save Settings"
+
 2.4.1. Validate if user was sent back to calculate tip page
-2.5. Insert random valid number and press Calculate Tip
+
+**2.5.** Insert random valid number and press Calculate Tip
+
 2.5.1. Validate Total Amount if its correct
+
 2.5.2. Validate Tip amount if its correct
-2.6. Clear EditText field and press Calculate Tip
+
+**2.6.** Clear EditText field and press Calculate Tip
+
 2.6.1. Validate alert of invalid number
 
-3. Visibility of fields
-3.1. Assert that settings fields (and important textviews) are visible
-3.2. Assert that calculate tip fields (and important textviews) are visible
+-
 
-4. Not written tests
-4.1. Put app to background and resume it
+**3. Visibility of fields**
+
+**3.1.** Assert that settings fields (and important textviews) are visible
+
+**3.2.** Assert that calculate tip fields (and important textviews) are visible
+
+-
+
+**4. Not written tests**
+
+**4.1.** Put app to background and resume it
+
 
 ## Improvement Suggestions
 1. When someone type an invalid bill amount (ex: 0.00074, remove the extras zeros to 0.74, since a bill might never be 0.00n*)
